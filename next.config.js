@@ -1,6 +1,6 @@
 module.exports = {
   target: "serverless",
-  images: {
-    domains: ["storage.googleapis.com"],
-  },
+  // images: {
+  //   domains: ["storage.googleapis.com"],
+  // },
 };
