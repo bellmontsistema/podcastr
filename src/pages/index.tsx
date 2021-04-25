@@ -129,7 +129,7 @@ export default function Home({ latestEpsodes, allEpisodes }: HomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await api.get("episodes", {
+  const { data } = await api.get("/api/episodes", {
     params: {
       _limit: 12,
       _sort: "publishe_at",
